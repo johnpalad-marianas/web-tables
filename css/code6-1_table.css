@@ -93,3 +93,7 @@ table thead {
 .night {
    background-color: violet;
 }
+
+h1, h2 {
+   text-align: left;
+}
