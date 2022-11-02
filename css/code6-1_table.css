@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Author:   Coding Challenge 1   
+   Date:     2021-03-01
+   Filename: code6-1_table.css
+
+*/
+
+table {
+   border-collapse: collapse;
+   border: 20px groove gray;
+}
+
+th, td {
+   border: 1px solid gray;
+   padding: 5px;
+   text-align: center;
+   vertical-align: top;
+}
+
+caption {
+   caption-side: top;
+   text-align: left;
+   font-size: 1.5em;
+}
+
+table col#firstCol {
+   background-color: yellow;
+   width: 150px;
+}
+
+table col#hourCols {
+   width: 75px;
+}
+
+table thead {
+   background-color: aqua;
+}
+
+.Time {
+   background-color: aqua;
+}
+
+.hour {
+   background-color: antiquewhite;
+}
+
+.sleeping {
+   background-color: gray;
+}
+
+.class {
+   background-color: cadetblue;
+}
+
+.breakfast {
+   background-color: chocolate;
+}
+
+.gaming {
+   background-color: darkgreen;
+}
+
+.lunch {
+   background-color: dodgerblue;
+}
+
+.prep {
+   background-color: darkgoldenrod;
+}
+
+.gym {
+   background-color: firebrick;
+}
+
+.rest {
+   background-color: darkseagreen;
+}
+
+.dinner {
+   background-color: greenyellow;
+}
+
+.school {
+   background-color: lightsalmon;
+}
+
+.night {
+   background-color: violet;
+}
